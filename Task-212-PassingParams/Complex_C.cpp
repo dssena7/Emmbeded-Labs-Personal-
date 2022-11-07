@@ -1,21 +1,21 @@
 #include"Complex_C.hpp"
 #include "stdio.h"
 
-ComplexNumber_C complexAdd(const ComplexNumber_C a, const ComplexNumber_C b) {
+/*ComplexNumber_C complexAdd(const ComplexNumber_C a, const ComplexNumber_C b) {
     ComplexNumber_C y = a;
     y.real += b.real;
     y.imag += b.imag;
     return y;
-}
+}*/
 
 
-/*//Complex Conjugate function
+//Complex Conjugate function
 ComplexNumber_C complexConjugate( const ComplexNumber_C y){
 y.imag = y.imag*(-1);
 return y;
 
 }
-*/
+
 
 
 void complexDisplay(const char *strName, const ComplexNumber_C u) {
