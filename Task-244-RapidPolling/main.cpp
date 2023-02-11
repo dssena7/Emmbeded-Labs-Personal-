@@ -95,7 +95,7 @@ int main()
             }
 
 
-// Modification of code so that the count controls the flash rate.
+/*/ Modification of code so that the count controls the flash rate.
       if (count > -1 && count < 50 && tm <= 500ms ){
     
             greenLED = !greenLED;
@@ -105,7 +105,7 @@ int main()
             greenLED = !greenLED;
             tmr.reset();
         }
-            wait_us(5000);
+            wait_us(5000);*/
 
 
 
@@ -119,15 +119,16 @@ int main()
             //**************
             disp = count;              
         }
-/*
+          
         // LED
         if (tm >= 250ms) {
-            greenLED = !greenLED;
+            greenLED = 1;
             tmr.reset();
+            greenLED = 0;
         }
         
         // Slow it down a bit (and debounce the switches)
-        wait_us(50000); */  
+        wait_us(50000);  
     }
 
 
