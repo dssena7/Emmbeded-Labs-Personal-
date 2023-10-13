@@ -28,8 +28,12 @@ int main() {
     ComplexNumber_C y;
     y.real = p.real + q.real; //Sum of p and q real
     y.imag = p.imag + q.imag; //Sum of p and q imaginary
-    printf("\nThe value of y is %f + j%f ",y.real,y.imag ); //Print value of y (sum of p and q)
+    printf("The value of y is %f + j%f \n",y.real,y.imag ); //Print value of y (sum of p and q)
     
     while (true) {
+        
     }
+
+
+
 }
